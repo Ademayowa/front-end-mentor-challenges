@@ -1,0 +1,69 @@
+:root {
+  --blue-color: #00252e;
+  --bg-color: #f6fbff;
+}
+
+.btn-outline-secondary {
+  border-radius: 30px;
+  border: 2px solid pink !important;
+  text-transform: capitalize;
+}
+
+.btn {
+  text-transform: capitalize !important;
+}
+
+.community {
+  padding-top: 40px;
+}
+
+.community h2 {
+  color: var(--blue-color);
+  font-weight: 700;
+}
+
+.community .btn-secondary,
+.build .btn-secondary {
+  border-radius: 30px;
+  padding: 20px 70px;
+  background-color: #fe53c1 !important;
+}
+
+.mockups h3,
+.grow h3,
+.flow h3,
+.users h3 {
+  font-size: 60px;
+  color: var(--blue-color);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.flow {
+  padding: 80px 0;
+}
+
+.grow h3,
+.flow h3 {
+  padding-top: 100px;
+}
+
+.build h3 {
+  font-weight: 800;
+  color: var(--blue-color);
+}
+
+.grow {
+  background: var(--bg-color);
+  margin-top: -150px;
+}
+
+.users {
+  background: var(--bg-color);
+  margin-top: -50px;
+  padding-bottom: 50px;
+}
+
+.users h3 {
+  padding-top: 100px;
+}
